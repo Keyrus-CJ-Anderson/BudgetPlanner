@@ -7,6 +7,9 @@ import { LoginComponent } from './features/authentication/login/login.component'
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './features/home/home/home.component';
 import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './features/footer/footer/footer.component';
+import { BannerComponent } from './features/banner/banner/banner.component';
+import { GroupsComponent } from './features/groups/groups/groups.component';
 
 
 
@@ -14,7 +17,10 @@ import { FormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent,
+    BannerComponent,
+    GroupsComponent
   ],
   imports: [
     BrowserModule,

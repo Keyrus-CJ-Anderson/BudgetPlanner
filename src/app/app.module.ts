@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { FooterComponent } from './features/footer/footer/footer.component';
 import { BannerComponent } from './features/banner/banner/banner.component';
 import { GroupsComponent } from './features/groups/groups/groups.component';
+import { ProfileComponent } from './features/profile/profile/profile.component';
 
 
 
@@ -20,7 +21,8 @@ import { GroupsComponent } from './features/groups/groups/groups.component';
     HomeComponent,
     FooterComponent,
     BannerComponent,
-    GroupsComponent
+    GroupsComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
